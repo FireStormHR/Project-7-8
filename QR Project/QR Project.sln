@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QR Project.Plugins", "QR Project.Plugins.csproj", "{B5BA0DFC-718A-21BE-9B46-D20805351EEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QR Project", "QR Project.csproj", "{8F08CB81-0799-051D-80FA-44CAD0925956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QR Project.Editor.Plugins", "QR Project.Editor.Plugins.csproj", "{8B437882-FA72-9A48-8565-C913E01926C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5BA0DFC-718A-21BE-9B46-D20805351EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BA0DFC-718A-21BE-9B46-D20805351EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BA0DFC-718A-21BE-9B46-D20805351EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BA0DFC-718A-21BE-9B46-D20805351EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F08CB81-0799-051D-80FA-44CAD0925956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F08CB81-0799-051D-80FA-44CAD0925956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F08CB81-0799-051D-80FA-44CAD0925956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F08CB81-0799-051D-80FA-44CAD0925956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B437882-FA72-9A48-8565-C913E01926C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B437882-FA72-9A48-8565-C913E01926C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B437882-FA72-9A48-8565-C913E01926C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B437882-FA72-9A48-8565-C913E01926C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
