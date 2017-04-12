@@ -1,19 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
-using UnityEditor.SceneManagement;
+#if UNITY_EDITOR
+    using UnityEditor;
+#endif
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class RunOnStartUp : MonoBehaviour {
 
-    [InitializeOnLoad]
-    public class Startup
-    {
-        static Startup()
+    #if UNITY_EDITOR
+        [InitializeOnLoad]
+        public class Startup
         {
-            //Application.LoadLevel("FirstScene");
-            SceneManager.LoadScene("FirstScene");
+            static Startup()
+            {
+                //Application.LoadLevel("FirstScene");
+                SceneManager.LoadScene("FirstScene");
+            }
         }
-    }
+    #endif
+
+    #if UNITY_ANDROID
+
+
+    #endif
+
+
+
+
+
 }

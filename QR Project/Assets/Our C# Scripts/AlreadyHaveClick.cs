@@ -2,7 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class AlreadyHaveClick : MonoBehaviour {
+
+    public void OnClickHaveClick()
+    {
+
+    }
 
 	
 }
